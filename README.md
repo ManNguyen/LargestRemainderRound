@@ -17,9 +17,9 @@ require ('largest-remainder-round');
 
 var arr = [1000,1000,5000,1000]
 
-arr.spread() # returns [13, 13, 62, 12]
-arr.spread(50) # returns [7, 6, 31, 6]
-arr.spread(1000) # returns [125, 125, 625, 125]
+arr.spread() // returns [13, 13, 62, 12]
+arr.spread(50) // returns [7, 6, 31, 6]
+arr.spread(1000) // returns [125, 125, 625, 125]
 
 ```
 
