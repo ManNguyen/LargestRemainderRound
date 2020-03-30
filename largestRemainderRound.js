@@ -1,7 +1,7 @@
 (function () {
 
-    if (typeof Array.prototype["LMR"] !== "function") {
-        Array.prototype["LMR"] = function (totalSeat) {
+    if (typeof Array.prototype[""] !== "function") {
+        Array.prototype["spread"] = function (totalSeat) {
             totalSeat = totalSeat || 100;
             if (this.length == 0) return [];
             if (this.find(x => (typeof x !== 'number') || (x < 0))
@@ -41,6 +41,6 @@
             });
         };
     } else {
-        throw new Error("Array.prototype.LMR(...) already exists");
+        throw new Error("Array.prototype.spread(...) already exists");
     }
 })();

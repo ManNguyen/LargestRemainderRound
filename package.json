@@ -1,0 +1,23 @@
+{
+  "name": "largest-remainder-round",
+  "version": "1.0.1",
+  "description": "A library to added a largest remainder  round functionality to positive number arrays",
+  "main": "largestRemainderRound.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManNguyen/LargestRemainderRound.git"
+  },
+  "keywords": [
+    "[\"largestremainderround\"",
+    "\"round\"]"
+  ],
+  "author": "Man Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManNguyen/LargestRemainderRound/issues"
+  },
+  "homepage": "https://github.com/ManNguyen/LargestRemainderRound#readme"
+}
