@@ -4,11 +4,16 @@ Add a `spread`  function to the array object to scale the number array in such w
 
 ## Installation
 
-Use the Node package manager [npm](https://www.npmjs.com/package/largest-remainder-round) to install.
+a) Use the Node package manager [npm](https://www.npmjs.com/package/largest-remainder-round) to install.
 
 ```bash
 npm i largest-remainder-round
 ```
+
+
+b) Use CDN
+
+`<script src="https://unpkg.com/largest-remainder-round"></script>`
 
 ## Usage
 
