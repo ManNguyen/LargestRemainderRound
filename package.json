@@ -4,7 +4,10 @@
   "description": "A library to added a largest remainder  round functionality to positive number arrays",
   "main": "largestRemainderRound.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version:bump": "npm version patch --no-git-tag-version --silent",
+    "minify": "terser largestRemainderRound.js --compress --mangle --warn --output largestRemainderRound.min.js",
+    "release": ""
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/ManNguyen/LargestRemainderRound/issues"
   },
-  "homepage": "https://github.com/ManNguyen/LargestRemainderRound#readme"
+  "homepage": "https://github.com/ManNguyen/LargestRemainderRound#readme",
+  "devDependencies": {
+    "terser": "^4.6.10"
+  },
+  "dependencies": {}
 }

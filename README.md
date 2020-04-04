@@ -1,5 +1,7 @@
 # Largest Remainder Round
-Add a `spread`  function to the array object to scale the number array in such way that the total amount is exact and the percentage of each element is unchanged using the [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method). It's helpful when you want to convert to percentage the number array and want to keep the total sum at 100.
+Add a `spread`  function to the array object which "spread" the number array in such way that the total amount is exact without changing the percentage of each element. The "spread" action uses the [Largest Remainder Method](https://en.wikipedia.org/wiki/Largest_remainder_method). 
+
+`spread` is useful when you want to get the percentage of a number array and keep the total percentage at 100.
 
 
 ## Installation
