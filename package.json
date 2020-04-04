@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "version:bump": "npm version patch --no-git-tag-version --silent",
     "minify": "terser largestRemainderRound.js --compress --mangle --warn --output largestRemainderRound.min.js",
-    "release": ""
+    "release": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
