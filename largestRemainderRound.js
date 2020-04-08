@@ -1,5 +1,5 @@
 (function () {
-
+    var getRemainder = (a) => (a - Math.floor(a)).toFixed(4);
     if (typeof Array.prototype[""] !== "function") {
         Array.prototype["spread"] = function (totalSeat) {
             totalSeat = totalSeat || 100;
@@ -11,9 +11,6 @@
             }
 
             var sum = this.reduce((s, i) => s + i, 0);
-
-            var getRemainder = (a) => (a - Math.floor(a)).toFixed(4);
-
             var result = this.map(function (num, index) {
                 var seats = (num / sum) * totalSeat;
                 return {
