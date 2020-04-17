@@ -4,7 +4,7 @@
   "description": "A library to added a largest remainder  round functionality to positive number arrays",
   "main": "largestRemainderRound.min.js",
   "scripts": {
-    "test": "",
+    "test": "npx jasmine",
     "version:bump": "npm version patch --no-git-tag-version --silent",
     "minify": "terser largestRemainderRound.js --compress --mangle --warn --output largestRemainderRound.min.js",
     "release": "npm run version:bump && npm run minify && npm publish"
