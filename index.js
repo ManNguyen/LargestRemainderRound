@@ -3,6 +3,9 @@ var x = [0,1.67,2.89];
 var y = [1000,1000,5000,1000];
 var z = [23,"not a num", "erer"];
 
+
+
+
 console.log(
 
 x.spread(),

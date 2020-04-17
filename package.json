@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ManNguyen/LargestRemainderRound#readme",
   "devDependencies": {
+    "jasmine": "^3.5.0",
     "terser": "^4.6.10"
   },
   "dependencies": {}
