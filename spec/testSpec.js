@@ -29,6 +29,7 @@ describe("Testing the Array.spread function", function () {
 
   it("spread correct to decimal 1", function () {
     expect(arr.spread(100,1)).toEqual(arrB);
+    expect(arr.spread(undefined,1)).toEqual(arrB);
   });
 
   it("spread correct to decimal 2", function () {
