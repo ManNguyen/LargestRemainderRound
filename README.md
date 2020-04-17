@@ -28,6 +28,10 @@ arr.spread() // returns [13, 13, 62, 12]
 arr.spread(50) // returns [7, 6, 31, 6]
 arr.spread(1000) // returns [125, 125, 625, 125]
 
+//second parameters is for number of digits after decimal place
+arr.spread(50,2) // returns [6.25, 6.25, 31.25, 6.25 ]
+arr.spread(undefined,1) // return [12.5, 12.5, 62.5, 12.5]
+
 ```
 
 ## Contributing
