@@ -1,7 +1,7 @@
 {
   "name": "largest-remainder-round",
   "version": "1.1.0",
-  "description": "A library to added a largest remainder  round functionality to positive number arrays",
+  "description": "A library to added a largest remainder round functionality to arrays",
   "main": "largestRemainderRound.min.js",
   "scripts": {
     "test": "npx jasmine",
